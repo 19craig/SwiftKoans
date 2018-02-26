@@ -11,6 +11,7 @@
 		44D4205E204097BD0040B398 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D4205D204097BD0040B398 /* Factorial.swift */; };
 		44D4206C204371D70040B398 /* FactorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D4206B204371D70040B398 /* FactorialTests.swift */; };
 		44D4206E204377930040B398 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D4205D204097BD0040B398 /* Factorial.swift */; };
+		44D4207220444F570040B398 /* FactorialSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D4207120444F570040B398 /* FactorialSolution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		44D420632040A6E40040B398 /* SwiftKoansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftKoansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D420672040A6E40040B398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44D4206B204371D70040B398 /* FactorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialTests.swift; sourceTree = "<group>"; };
+		44D4207120444F570040B398 /* FactorialSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialSolution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				44D4205020408CA80040B398 /* SwiftKoans */,
+				44D4206F2044497B0040B398 /* Solutions */,
 				44D420642040A6E40040B398 /* SwiftKoansTests */,
 				44D4204F20408CA80040B398 /* Products */,
 			);
@@ -108,6 +111,22 @@
 			isa = PBXGroup;
 			children = (
 				44D4206B204371D70040B398 /* FactorialTests.swift */,
+			);
+			path = "Control Flow";
+			sourceTree = "<group>";
+		};
+		44D4206F2044497B0040B398 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				44D42070204449BE0040B398 /* Control Flow */,
+			);
+			path = Solutions;
+			sourceTree = "<group>";
+		};
+		44D42070204449BE0040B398 /* Control Flow */ = {
+			isa = PBXGroup;
+			children = (
+				44D4207120444F570040B398 /* FactorialSolution.swift */,
 			);
 			path = "Control Flow";
 			sourceTree = "<group>";
@@ -202,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D4207220444F570040B398 /* FactorialSolution.swift in Sources */,
 				44D4205220408CA80040B398 /* main.swift in Sources */,
 				44D4205E204097BD0040B398 /* Factorial.swift in Sources */,
 			);
