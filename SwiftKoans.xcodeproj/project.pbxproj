@@ -54,6 +54,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44353DAA2048712700011130 /* Control Flow */ = {
+			isa = PBXGroup;
+			children = (
+				44D4205D204097BD0040B398 /* Factorial.swift */,
+			);
+			name = "Control Flow";
+			sourceTree = "<group>";
+		};
+		44353DAB204871A800011130 /* Control Flow */ = {
+			isa = PBXGroup;
+			children = (
+				44D4207120444F570040B398 /* FactorialSolution.swift */,
+			);
+			name = "Control Flow";
+			sourceTree = "<group>";
+		};
 		44D4204520408CA80040B398 = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				44D42059204090830040B398 /* Basic */,
-				44D4205A2040910C0040B398 /* Control Flow */,
+				44353DAA2048712700011130 /* Control Flow */,
 				44D4205120408CA80040B398 /* main.swift */,
 			);
 			path = SwiftKoans;
@@ -88,14 +104,6 @@
 			children = (
 			);
 			path = Basic;
-			sourceTree = "<group>";
-		};
-		44D4205A2040910C0040B398 /* Control Flow */ = {
-			isa = PBXGroup;
-			children = (
-				44D4205D204097BD0040B398 /* Factorial.swift */,
-			);
-			path = "Control Flow";
 			sourceTree = "<group>";
 		};
 		44D420642040A6E40040B398 /* SwiftKoansTests */ = {
@@ -118,17 +126,9 @@
 		44D4206F2044497B0040B398 /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
-				44D42070204449BE0040B398 /* Control Flow */,
+				44353DAB204871A800011130 /* Control Flow */,
 			);
 			path = Solutions;
-			sourceTree = "<group>";
-		};
-		44D42070204449BE0040B398 /* Control Flow */ = {
-			isa = PBXGroup;
-			children = (
-				44D4207120444F570040B398 /* FactorialSolution.swift */,
-			);
-			path = "Control Flow";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
