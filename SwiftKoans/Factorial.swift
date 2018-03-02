@@ -20,6 +20,8 @@ class Factorial {
 	//	Task:
 	//
 	//	Write the factorial function
+	//	Return a UInt64 value because factorials get very large very quickly
+	//
 	//	Consider iterative as well as recursive solutions
 	//---------------------------------------------------------------------------
 	func factorial(_ seed: UInt) -> UInt64 {

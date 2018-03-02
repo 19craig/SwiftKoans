@@ -7,6 +7,10 @@
 //------------------------------------------------------------------------------
 
 //------------------------------------------------------------------------------
+//	Note: These solutions work. They may or may not be the best approach but are
+//	provided as reference to compare your solutions to or as suggestions on
+//	different approaches.
+//
 //	Definition:
 //
 //	The factorial of a non-negative integer n, denoted n!, is the product of all

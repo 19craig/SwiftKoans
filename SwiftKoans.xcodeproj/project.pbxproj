@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4416FD9C204907A7009AB2E6 /* BinarySearchSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4416FD9B204907A7009AB2E6 /* BinarySearchSolution.swift */; };
+		44353DAD2048753600011130 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44353DAC2048753600011130 /* BinarySearch.swift */; };
+		44353DB220487A0E00011130 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44353DB120487A0E00011130 /* BinarySearchTests.swift */; };
+		44353DB320487B2700011130 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44353DAC2048753600011130 /* BinarySearch.swift */; };
 		44D4205220408CA80040B398 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D4205120408CA80040B398 /* main.swift */; };
 		44D4205E204097BD0040B398 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D4205D204097BD0040B398 /* Factorial.swift */; };
 		44D4206C204371D70040B398 /* FactorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D4206B204371D70040B398 /* FactorialTests.swift */; };
@@ -27,6 +31,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4416FD9B204907A7009AB2E6 /* BinarySearchSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchSolution.swift; sourceTree = "<group>"; };
+		44353DAC2048753600011130 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		44353DB120487A0E00011130 /* BinarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
 		44D4204E20408CA80040B398 /* SwiftKoans */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftKoans; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D4205120408CA80040B398 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		44D4205D204097BD0040B398 /* Factorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factorial.swift; sourceTree = "<group>"; };
@@ -54,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4416FD9A2049076C009AB2E6 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				4416FD9B204907A7009AB2E6 /* BinarySearchSolution.swift */,
+			);
+			name = Collections;
+			sourceTree = "<group>";
+		};
 		44353DAA2048712700011130 /* Control Flow */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +83,30 @@
 				44D4207120444F570040B398 /* FactorialSolution.swift */,
 			);
 			name = "Control Flow";
+			sourceTree = "<group>";
+		};
+		44353DAE2048797000011130 /* Control Flow */ = {
+			isa = PBXGroup;
+			children = (
+				44D4206B204371D70040B398 /* FactorialTests.swift */,
+			);
+			name = "Control Flow";
+			sourceTree = "<group>";
+		};
+		44353DAF2048799B00011130 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				44353DAC2048753600011130 /* BinarySearch.swift */,
+			);
+			name = Collections;
+			sourceTree = "<group>";
+		};
+		44353DB0204879DC00011130 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				44353DB120487A0E00011130 /* BinarySearchTests.swift */,
+			);
+			name = Collections;
 			sourceTree = "<group>";
 		};
 		44D4204520408CA80040B398 = {
@@ -92,40 +131,27 @@
 		44D4205020408CA80040B398 /* SwiftKoans */ = {
 			isa = PBXGroup;
 			children = (
-				44D42059204090830040B398 /* Basic */,
+				44353DAF2048799B00011130 /* Collections */,
 				44353DAA2048712700011130 /* Control Flow */,
 				44D4205120408CA80040B398 /* main.swift */,
 			);
 			path = SwiftKoans;
 			sourceTree = "<group>";
 		};
-		44D42059204090830040B398 /* Basic */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Basic;
-			sourceTree = "<group>";
-		};
 		44D420642040A6E40040B398 /* SwiftKoansTests */ = {
 			isa = PBXGroup;
 			children = (
-				44D4206D204371E90040B398 /* Control Flow */,
+				44353DB0204879DC00011130 /* Collections */,
+				44353DAE2048797000011130 /* Control Flow */,
 				44D420672040A6E40040B398 /* Info.plist */,
 			);
 			path = SwiftKoansTests;
 			sourceTree = "<group>";
 		};
-		44D4206D204371E90040B398 /* Control Flow */ = {
-			isa = PBXGroup;
-			children = (
-				44D4206B204371D70040B398 /* FactorialTests.swift */,
-			);
-			path = "Control Flow";
-			sourceTree = "<group>";
-		};
 		44D4206F2044497B0040B398 /* Solutions */ = {
 			isa = PBXGroup;
 			children = (
+				4416FD9A2049076C009AB2E6 /* Collections */,
 				44353DAB204871A800011130 /* Control Flow */,
 			);
 			path = Solutions;
@@ -221,7 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44353DAD2048753600011130 /* BinarySearch.swift in Sources */,
 				44D4207220444F570040B398 /* FactorialSolution.swift in Sources */,
+				4416FD9C204907A7009AB2E6 /* BinarySearchSolution.swift in Sources */,
 				44D4205220408CA80040B398 /* main.swift in Sources */,
 				44D4205E204097BD0040B398 /* Factorial.swift in Sources */,
 			);
@@ -231,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44353DB320487B2700011130 /* BinarySearch.swift in Sources */,
 				44D4206C204371D70040B398 /* FactorialTests.swift in Sources */,
+				44353DB220487A0E00011130 /* BinarySearchTests.swift in Sources */,
 				44D4206E204377930040B398 /* Factorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
